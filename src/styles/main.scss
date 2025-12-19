@@ -57,7 +57,7 @@ $days-of-week: mon, tue, wed, thu, fri, sat, sun;
 }
 
 @for $len from 28 through 31 {
-  .calendar--month-31#{$len} .calendar__day:nth-child(n + #{$len + 1}) {
+  .calendar--month-length-31#{$len} .calendar__day:nth-child(n + #{$len + 1}) {
     display: none;
   }
 }
